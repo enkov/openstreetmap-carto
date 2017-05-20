@@ -12,7 +12,8 @@
 @pedestrian-fill: #dddde8;
 @raceway-fill: pink;
 @road-fill: #ddd;
-@footway-fill: salmon;
+//@footway-fill: salmon;
+@footway-fill: #ffffff;
 @steps-fill: @footway-fill;
 @cycleway-fill: blue;
 @bridleway-fill: green;
@@ -271,8 +272,8 @@
 @living-street-oneway-arrow-color: darken(@residential-casing, 30%);
 @pedestrian-oneway-arrow-color:   darken(@pedestrian-casing, 25%);
 @raceway-oneway-arrow-color:      darken(@raceway-fill, 50%);
-@footway-oneway-arrow-color:      darken(@footway-fill, 35%);
-@steps-oneway-arrow-color:        darken(@steps-fill, 35%);
+@footway-oneway-arrow-color:      darken(@footway-fill, 1%);
+@steps-oneway-arrow-color:        darken(@steps-fill, 1%);
 @cycleway-oneway-arrow-color:     darken(@cycleway-fill, 25%);
 @track-oneway-arrow-color:        darken(@track-fill, 15%);
 @bridleway-oneway-arrow-color:    darken(@track-fill, 10%);
